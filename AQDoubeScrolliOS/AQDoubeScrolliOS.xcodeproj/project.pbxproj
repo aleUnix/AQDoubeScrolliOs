@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA72D7E01DD236A700D50962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7DF1DD236A700D50962 /* main.m */; };
+		CA72D7E31DD236A700D50962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7E21DD236A700D50962 /* AppDelegate.m */; };
+		CA72D7E61DD236A700D50962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7E51DD236A700D50962 /* ViewController.m */; };
+		CA72D7E91DD236A700D50962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7E71DD236A700D50962 /* Main.storyboard */; };
+		CA72D7EB1DD236A700D50962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7EA1DD236A700D50962 /* Assets.xcassets */; };
+		CA72D7EE1DD236A700D50962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */; };
+		CA72D7F91DD236A700D50962 /* AQDoubeScrolliOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7F81DD236A700D50962 /* AQDoubeScrolliOSTests.m */; };
+		CA72D8041DD236A700D50962 /* AQDoubeScrolliOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D8031DD236A700D50962 /* AQDoubeScrolliOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA72D7F51DD236A700D50962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA72D7D31DD236A700D50962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA72D7DA1DD236A700D50962;
+			remoteInfo = AQDoubeScrolliOS;
+		};
+		CA72D8001DD236A700D50962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA72D7D31DD236A700D50962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA72D7DA1DD236A700D50962;
+			remoteInfo = AQDoubeScrolliOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA72D7DB1DD236A700D50962 /* AQDoubeScrolliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQDoubeScrolliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72D7DF1DD236A700D50962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA72D7E11DD236A700D50962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA72D7E21DD236A700D50962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA72D7E41DD236A700D50962 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA72D7E51DD236A700D50962 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA72D7E81DD236A700D50962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA72D7EA1DD236A700D50962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA72D7ED1DD236A700D50962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA72D7EF1DD236A700D50962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA72D7F41DD236A700D50962 /* AQDoubeScrolliOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQDoubeScrolliOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72D7F81DD236A700D50962 /* AQDoubeScrolliOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQDoubeScrolliOSTests.m; sourceTree = "<group>"; };
+		CA72D7FA1DD236A700D50962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA72D7FF1DD236A700D50962 /* AQDoubeScrolliOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQDoubeScrolliOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA72D8031DD236A700D50962 /* AQDoubeScrolliOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQDoubeScrolliOSUITests.m; sourceTree = "<group>"; };
+		CA72D8051DD236A700D50962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA72D7D81DD236A700D50962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7F11DD236A700D50962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7FC1DD236A700D50962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA72D7D21DD236A700D50962 = {
+			isa = PBXGroup;
+			children = (
+				CA72D7DD1DD236A700D50962 /* AQDoubeScrolliOS */,
+				CA72D7F71DD236A700D50962 /* AQDoubeScrolliOSTests */,
+				CA72D8021DD236A700D50962 /* AQDoubeScrolliOSUITests */,
+				CA72D7DC1DD236A700D50962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA72D7DC1DD236A700D50962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7DB1DD236A700D50962 /* AQDoubeScrolliOS.app */,
+				CA72D7F41DD236A700D50962 /* AQDoubeScrolliOSTests.xctest */,
+				CA72D7FF1DD236A700D50962 /* AQDoubeScrolliOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA72D7DD1DD236A700D50962 /* AQDoubeScrolliOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7E11DD236A700D50962 /* AppDelegate.h */,
+				CA72D7E21DD236A700D50962 /* AppDelegate.m */,
+				CA72D7E41DD236A700D50962 /* ViewController.h */,
+				CA72D7E51DD236A700D50962 /* ViewController.m */,
+				CA72D7E71DD236A700D50962 /* Main.storyboard */,
+				CA72D7EA1DD236A700D50962 /* Assets.xcassets */,
+				CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */,
+				CA72D7EF1DD236A700D50962 /* Info.plist */,
+				CA72D7DE1DD236A700D50962 /* Supporting Files */,
+			);
+			path = AQDoubeScrolliOS;
+			sourceTree = "<group>";
+		};
+		CA72D7DE1DD236A700D50962 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7DF1DD236A700D50962 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA72D7F71DD236A700D50962 /* AQDoubeScrolliOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D7F81DD236A700D50962 /* AQDoubeScrolliOSTests.m */,
+				CA72D7FA1DD236A700D50962 /* Info.plist */,
+			);
+			path = AQDoubeScrolliOSTests;
+			sourceTree = "<group>";
+		};
+		CA72D8021DD236A700D50962 /* AQDoubeScrolliOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA72D8031DD236A700D50962 /* AQDoubeScrolliOSUITests.m */,
+				CA72D8051DD236A700D50962 /* Info.plist */,
+			);
+			path = AQDoubeScrolliOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA72D7DA1DD236A700D50962 /* AQDoubeScrolliOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA72D8081DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOS" */;
+			buildPhases = (
+				CA72D7D71DD236A700D50962 /* Sources */,
+				CA72D7D81DD236A700D50962 /* Frameworks */,
+				CA72D7D91DD236A700D50962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AQDoubeScrolliOS;
+			productName = AQDoubeScrolliOS;
+			productReference = CA72D7DB1DD236A700D50962 /* AQDoubeScrolliOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA72D7F31DD236A700D50962 /* AQDoubeScrolliOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA72D80B1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSTests" */;
+			buildPhases = (
+				CA72D7F01DD236A700D50962 /* Sources */,
+				CA72D7F11DD236A700D50962 /* Frameworks */,
+				CA72D7F21DD236A700D50962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA72D7F61DD236A700D50962 /* PBXTargetDependency */,
+			);
+			name = AQDoubeScrolliOSTests;
+			productName = AQDoubeScrolliOSTests;
+			productReference = CA72D7F41DD236A700D50962 /* AQDoubeScrolliOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA72D7FE1DD236A700D50962 /* AQDoubeScrolliOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA72D80E1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSUITests" */;
+			buildPhases = (
+				CA72D7FB1DD236A700D50962 /* Sources */,
+				CA72D7FC1DD236A700D50962 /* Frameworks */,
+				CA72D7FD1DD236A700D50962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA72D8011DD236A700D50962 /* PBXTargetDependency */,
+			);
+			name = AQDoubeScrolliOSUITests;
+			productName = AQDoubeScrolliOSUITests;
+			productReference = CA72D7FF1DD236A700D50962 /* AQDoubeScrolliOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA72D7D31DD236A700D50962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Alessio;
+				TargetAttributes = {
+					CA72D7DA1DD236A700D50962 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CA72D7F31DD236A700D50962 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA72D7DA1DD236A700D50962;
+					};
+					CA72D7FE1DD236A700D50962 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA72D7DA1DD236A700D50962;
+					};
+				};
+			};
+			buildConfigurationList = CA72D7D61DD236A700D50962 /* Build configuration list for PBXProject "AQDoubeScrolliOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA72D7D21DD236A700D50962;
+			productRefGroup = CA72D7DC1DD236A700D50962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA72D7DA1DD236A700D50962 /* AQDoubeScrolliOS */,
+				CA72D7F31DD236A700D50962 /* AQDoubeScrolliOSTests */,
+				CA72D7FE1DD236A700D50962 /* AQDoubeScrolliOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA72D7D91DD236A700D50962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7EE1DD236A700D50962 /* LaunchScreen.storyboard in Resources */,
+				CA72D7EB1DD236A700D50962 /* Assets.xcassets in Resources */,
+				CA72D7E91DD236A700D50962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7F21DD236A700D50962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7FD1DD236A700D50962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA72D7D71DD236A700D50962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7E61DD236A700D50962 /* ViewController.m in Sources */,
+				CA72D7E31DD236A700D50962 /* AppDelegate.m in Sources */,
+				CA72D7E01DD236A700D50962 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7F01DD236A700D50962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D7F91DD236A700D50962 /* AQDoubeScrolliOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA72D7FB1DD236A700D50962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA72D8041DD236A700D50962 /* AQDoubeScrolliOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA72D7F61DD236A700D50962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA72D7DA1DD236A700D50962 /* AQDoubeScrolliOS */;
+			targetProxy = CA72D7F51DD236A700D50962 /* PBXContainerItemProxy */;
+		};
+		CA72D8011DD236A700D50962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA72D7DA1DD236A700D50962 /* AQDoubeScrolliOS */;
+			targetProxy = CA72D8001DD236A700D50962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA72D7E71DD236A700D50962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA72D7E81DD236A700D50962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA72D7ED1DD236A700D50962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA72D8061DD236A700D50962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA72D8071DD236A700D50962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA72D8091DD236A700D50962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AQDoubeScrolliOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA72D80A1DD236A700D50962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AQDoubeScrolliOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA72D80C1DD236A700D50962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AQDoubeScrolliOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQDoubeScrolliOS.app/AQDoubeScrolliOS";
+			};
+			name = Debug;
+		};
+		CA72D80D1DD236A700D50962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AQDoubeScrolliOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AQDoubeScrolliOS.app/AQDoubeScrolliOS";
+			};
+			name = Release;
+		};
+		CA72D80F1DD236A700D50962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AQDoubeScrolliOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AQDoubeScrolliOS;
+			};
+			name = Debug;
+		};
+		CA72D8101DD236A700D50962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AQDoubeScrolliOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AQ.AQDoubeScrolliOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AQDoubeScrolliOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA72D7D61DD236A700D50962 /* Build configuration list for PBXProject "AQDoubeScrolliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72D8061DD236A700D50962 /* Debug */,
+				CA72D8071DD236A700D50962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA72D8081DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72D8091DD236A700D50962 /* Debug */,
+				CA72D80A1DD236A700D50962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA72D80B1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72D80C1DD236A700D50962 /* Debug */,
+				CA72D80D1DD236A700D50962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA72D80E1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA72D80F1DD236A700D50962 /* Debug */,
+				CA72D8101DD236A700D50962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA72D7D31DD236A700D50962 /* Project object */;
+}
