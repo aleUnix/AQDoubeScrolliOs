@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA555F191DD23A300004C5E5 /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA555F181DD23A300004C5E5 /* HomePageTableViewCell.m */; };
 		CA72D7E01DD236A700D50962 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7DF1DD236A700D50962 /* main.m */; };
 		CA72D7E31DD236A700D50962 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7E21DD236A700D50962 /* AppDelegate.m */; };
-		CA72D7E61DD236A700D50962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7E51DD236A700D50962 /* ViewController.m */; };
+		CA72D7E61DD236A700D50962 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7E51DD236A700D50962 /* HomePageViewController.m */; };
 		CA72D7E91DD236A700D50962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7E71DD236A700D50962 /* Main.storyboard */; };
 		CA72D7EB1DD236A700D50962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7EA1DD236A700D50962 /* Assets.xcassets */; };
 		CA72D7EE1DD236A700D50962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */; };
@@ -35,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA555F171DD23A300004C5E5 /* HomePageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewCell.h; sourceTree = "<group>"; };
+		CA555F181DD23A300004C5E5 /* HomePageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewCell.m; sourceTree = "<group>"; };
 		CA72D7DB1DD236A700D50962 /* AQDoubeScrolliOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQDoubeScrolliOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA72D7DF1DD236A700D50962 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA72D7E11DD236A700D50962 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA72D7E21DD236A700D50962 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA72D7E41DD236A700D50962 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA72D7E51DD236A700D50962 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA72D7E41DD236A700D50962 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		CA72D7E51DD236A700D50962 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		CA72D7E81DD236A700D50962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA72D7EA1DD236A700D50962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA72D7ED1DD236A700D50962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,13 +106,15 @@
 			children = (
 				CA72D7E11DD236A700D50962 /* AppDelegate.h */,
 				CA72D7E21DD236A700D50962 /* AppDelegate.m */,
-				CA72D7E41DD236A700D50962 /* ViewController.h */,
-				CA72D7E51DD236A700D50962 /* ViewController.m */,
+				CA72D7E41DD236A700D50962 /* HomePageViewController.h */,
+				CA72D7E51DD236A700D50962 /* HomePageViewController.m */,
 				CA72D7E71DD236A700D50962 /* Main.storyboard */,
 				CA72D7EA1DD236A700D50962 /* Assets.xcassets */,
 				CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */,
 				CA72D7EF1DD236A700D50962 /* Info.plist */,
 				CA72D7DE1DD236A700D50962 /* Supporting Files */,
+				CA555F171DD23A300004C5E5 /* HomePageTableViewCell.h */,
+				CA555F181DD23A300004C5E5 /* HomePageTableViewCell.m */,
 			);
 			path = AQDoubeScrolliOS;
 			sourceTree = "<group>";
@@ -270,9 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA72D7E61DD236A700D50962 /* ViewController.m in Sources */,
+				CA72D7E61DD236A700D50962 /* HomePageViewController.m in Sources */,
 				CA72D7E31DD236A700D50962 /* AppDelegate.m in Sources */,
 				CA72D7E01DD236A700D50962 /* main.m in Sources */,
+				CA555F191DD23A300004C5E5 /* HomePageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				CA72D80A1DD236A700D50962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA72D80B1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				CA72D80D1DD236A700D50962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA72D80E1DD236A700D50962 /* Build configuration list for PBXNativeTarget "AQDoubeScrolliOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				CA72D8101DD236A700D50962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
