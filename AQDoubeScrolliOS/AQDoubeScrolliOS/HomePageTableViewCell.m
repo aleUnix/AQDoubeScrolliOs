@@ -8,6 +8,7 @@
 //
 
 #import "HomePageTableViewCell.h"
+#import "HomePageCollectionViewCell.h"
 
 @implementation HomePageTableViewCell
 
@@ -21,5 +22,26 @@
 
     // Configure the view for the selected state
 }
+
+#pragma mark - UICollectionViewDataSource
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 1;   //real number in collection
+}
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 1;
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSString *cellIdentifier = @"HomeCollectionCell";
+    HomePageCollectionViewCell *collectionCell = (HomePageCollectionViewCell*) [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
+    
+    
+    
+    return collectionCell;
+    
+}
+
 
 @end

@@ -16,6 +16,7 @@
 		CA72D7EE1DD236A700D50962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA72D7EC1DD236A700D50962 /* LaunchScreen.storyboard */; };
 		CA72D7F91DD236A700D50962 /* AQDoubeScrolliOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D7F81DD236A700D50962 /* AQDoubeScrolliOSTests.m */; };
 		CA72D8041DD236A700D50962 /* AQDoubeScrolliOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72D8031DD236A700D50962 /* AQDoubeScrolliOSUITests.m */; };
+		CA8501D61DD2FA5D009AA80D /* HomePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8501D51DD2FA5D009AA80D /* HomePageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CA72D7FF1DD236A700D50962 /* AQDoubeScrolliOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQDoubeScrolliOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA72D8031DD236A700D50962 /* AQDoubeScrolliOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQDoubeScrolliOSUITests.m; sourceTree = "<group>"; };
 		CA72D8051DD236A700D50962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8501D41DD2FA5D009AA80D /* HomePageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCollectionViewCell.h; sourceTree = "<group>"; };
+		CA8501D51DD2FA5D009AA80D /* HomePageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				CA72D7DE1DD236A700D50962 /* Supporting Files */,
 				CA555F171DD23A300004C5E5 /* HomePageTableViewCell.h */,
 				CA555F181DD23A300004C5E5 /* HomePageTableViewCell.m */,
+				CA8501D41DD2FA5D009AA80D /* HomePageCollectionViewCell.h */,
+				CA8501D51DD2FA5D009AA80D /* HomePageCollectionViewCell.m */,
 			);
 			path = AQDoubeScrolliOS;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				CA72D7E61DD236A700D50962 /* HomePageViewController.m in Sources */,
 				CA72D7E31DD236A700D50962 /* AppDelegate.m in Sources */,
 				CA72D7E01DD236A700D50962 /* main.m in Sources */,
+				CA8501D61DD2FA5D009AA80D /* HomePageCollectionViewCell.m in Sources */,
 				CA555F191DD23A300004C5E5 /* HomePageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

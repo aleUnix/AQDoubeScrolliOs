@@ -9,6 +9,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomePageTableViewCell : UITableViewCell
+@interface HomePageTableViewCell : UITableViewCell <UICollectionViewDelegate, UICollectionViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UILabel *titleSectionLbl;
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end

@@ -27,7 +27,52 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9o8-Pk-2cO" id="snw-nL-O39">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="150.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGB-vN-shB">
+                                                    <rect key="frame" x="8" y="1" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="I88-mO-kPi">
+                                                    <rect key="frame" x="8" y="30" width="359" height="120.5"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3t4-Jh-5kq">
+                                                        <size key="itemSize" width="85" height="119"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionCell" id="wfh-aj-LhG">
+                                                            <rect key="frame" x="0.0" y="0.0" width="85" height="119"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                                <rect key="frame" x="0.0" y="0.0" width="85" height="119"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                            </view>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="9o8-Pk-2cO" id="YWZ-Eb-a5o"/>
+                                                        <outlet property="delegate" destination="9o8-Pk-2cO" id="fju-Zl-fTf"/>
+                                                    </connections>
+                                                </collectionView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="I88-mO-kPi" firstAttribute="top" secondItem="bGB-vN-shB" secondAttribute="bottom" constant="8" id="O7U-W5-ebs"/>
+                                                <constraint firstItem="I88-mO-kPi" firstAttribute="top" secondItem="snw-nL-O39" secondAttribute="top" constant="30" id="R4u-gG-MmO"/>
+                                                <constraint firstAttribute="bottom" secondItem="I88-mO-kPi" secondAttribute="bottom" id="cyI-W3-P9v"/>
+                                                <constraint firstItem="bGB-vN-shB" firstAttribute="leading" secondItem="snw-nL-O39" secondAttribute="leading" constant="8" id="qOF-6C-P5R"/>
+                                                <constraint firstAttribute="trailing" secondItem="I88-mO-kPi" secondAttribute="trailing" constant="8" id="rWf-dJ-oDS"/>
+                                                <constraint firstItem="I88-mO-kPi" firstAttribute="leading" secondItem="snw-nL-O39" secondAttribute="leading" constant="8" id="uXg-4R-QQF"/>
+                                                <constraint firstItem="bGB-vN-shB" firstAttribute="top" secondItem="snw-nL-O39" secondAttribute="top" constant="1" id="zcE-dl-ngB"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="collectionView" destination="I88-mO-kPi" id="h5P-P5-5Ay"/>
+                                            <outlet property="titleSectionLbl" destination="bGB-vN-shB" id="AkQ-Qw-xb2"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
