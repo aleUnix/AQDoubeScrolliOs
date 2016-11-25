@@ -11,4 +11,6 @@
 
 @interface HomePageCollectionViewCell : UICollectionViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *cover;
+
 @end

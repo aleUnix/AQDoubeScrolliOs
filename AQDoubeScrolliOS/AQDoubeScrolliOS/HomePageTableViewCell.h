@@ -15,4 +15,6 @@
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
+@property (strong, nonatomic) NSArray *category;
+
 @end

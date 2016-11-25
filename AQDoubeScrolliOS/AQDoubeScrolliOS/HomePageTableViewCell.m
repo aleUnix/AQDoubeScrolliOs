@@ -15,6 +15,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -25,11 +26,11 @@
 
 #pragma mark - UICollectionViewDataSource
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
-    return 1;   //real number in collection
+    return 1;
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 1;
+    return self.category.count;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -37,6 +38,15 @@
     NSString *cellIdentifier = @"HomeCollectionCell";
     HomePageCollectionViewCell *collectionCell = (HomePageCollectionViewCell*) [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
+    if(collectionCell){
+        //set fields of collection cell
+        NSDictionary *content = self.category[indexPath.row];
+        
+        NSString *stringUrl = [content objectForKey:@"Cover"];
+        NSURL *coverURL = [NSURL URLWithString:stringUrl];
+        collectionCell.cover.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:coverURL]];
+        
+    }
     
     
     return collectionCell;
